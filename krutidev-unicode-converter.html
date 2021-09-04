@@ -16,6 +16,8 @@
 	  
 	  
 	  <style>
+.topnav_container {  z-index: 99; background-color: white; }
+
 .topnav {
   overflow: hidden;
   background-color: #fff;
@@ -188,7 +190,6 @@ function mobile_nav() {
      <style>
 * {  box-sizing: border-box; margin: 0;  } 
 
-html, body { height: 100%; margin: 0; }
 
          @font-face {
     font-family: 'Kruti Dev 010';
@@ -207,12 +208,12 @@ html, body { height: 100%; margin: 0; }
 #unicode_text { font-family: 'Baloo 2';  font-size: 23px!important; line-height: 1.6;}
 
 .textarea-container {
-  height: 100%; position: fixed; top: 0; left: 0; right: 0;
+  height: 85vh; 
 }
 
 textarea { padding: 12px; text-align: justify;
   float: left; margin: 0;
-  width: 50%; height: 100%; 
+  width: 50%; height: 100%;  outline: none;
  resize: none; 
 } 
 
