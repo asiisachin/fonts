@@ -17,6 +17,32 @@
 	  
 	  
 	  <style>
+		  .row-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-container {
+  float: left;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .column-container {
+    width: 100%;
+  }
+}
+   		 
+
+
+@media screen and (min-width: 600px) {
+
+  .cc-50 { width: 50%; }
+
+
+}
+
 		  
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
        body { font-family: 'Lato', sans-serif; }
